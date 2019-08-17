@@ -8,11 +8,12 @@ Using submodules:
 ```
 $ git submodule init
 $ git submodule add https://github.com/raveious/esp-microcdr components/microcdr
+$ git submodule update --init --recursive
 ```
 
 Clone and own:
 
 ```
-$ git clone https://github.com/raveious/esp-microcdr components/microcdr
+$ git clone --recursive https://github.com/raveious/esp-microcdr components/microcdr
 ```
 
